@@ -1,0 +1,309 @@
+# Copyright (C) 2017 Premmerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Premmerce Product Bundles\n"
+"Report-Msgid-Bugs-To: issues\n"
+"POT-Creation-Date: 2018-08-23 10:54+0300\n"
+"PO-Revision-Date: 2018-08-23 10:54+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: freemius\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Admin/Admin.php:114 src/Admin/Admin.php:115
+msgid "Product bundles"
+msgstr ""
+
+#: src/Admin/Admin.php:204 src/Admin/AdminProducts.php:129
+#: views/frontend/product-bundles-list.php:14
+msgid "Bundles"
+msgstr ""
+
+#: src/Admin/Admin.php:207
+msgid "Contact Us"
+msgstr ""
+
+#: src/Admin/Admin.php:209
+msgid "Account"
+msgstr ""
+
+#: src/Admin/Admin.php:297
+msgid "Bundle updated."
+msgstr ""
+
+#: src/Admin/Admin.php:398
+#: views/admin/product/product-form-add-new-bundle.php:21
+msgid "Main product required"
+msgstr ""
+
+#: src/Admin/Admin.php:404 src/Admin/Admin.php:405
+msgid "Product in the bundle can not be the same as main product"
+msgstr ""
+
+#: src/Admin/Admin.php:409 src/Admin/Admin.php:411
+msgid "Discount must be from 0 to 100"
+msgstr ""
+
+#: src/Admin/Admin.php:415
+#: views/admin/product/product-form-add-new-bundle.php:22
+msgid "Attached products required"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:42
+msgid "types"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:43
+msgid "type"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:83
+msgid "Hidden"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:88
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:93 src/Admin/BundlesTable.php:181
+#: views/admin/menu-page-edit.php:104
+msgid "Delete"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:98
+msgid "View"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:124
+msgid "Yes"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:167 views/admin/menu-page-edit.php:39
+#: views/admin/menu-page.php:23 views/admin/product-form-add-new-bundle.php:10
+#: views/admin/product/product-form-add-new-bundle.php:10
+msgid "Main product"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:168 views/admin/menu-page-edit.php:50
+msgid "Attached products"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:169
+msgid "Enabled"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:182
+msgid "Activate"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:183
+msgid "Deactivate"
+msgstr ""
+
+#: src/Admin/BundlesTable.php:226
+msgid "No bundles found."
+msgstr ""
+
+#: src/Frontend/Frontend.php:320
+#, php-format
+msgid ""
+"%s has been removed from your cart because it can no longer be purchased. "
+"Please contact us if you need assistance."
+msgstr ""
+
+#: src/Frontend/Frontend.php:372
+#, php-format
+msgid "You cannot add another \"%1$s\" to your cart."
+msgstr ""
+
+#: src/ProductBundlesModel.php:311 src/ProductBundlesModel.php:314
+msgid "is not available"
+msgstr ""
+
+#: src/ProductBundlesModel.php:319
+msgid "is password protected"
+msgstr ""
+
+#: src/ProductBundlesModel.php:323
+msgid "regular price is empty"
+msgstr ""
+
+#: src/ProductBundlesModel.php:330
+msgid "out of stock"
+msgstr ""
+
+#: src/ProductBundlesPlugin.php:95
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr ""
+
+#: views/admin/main.php:8
+msgid "Premmerce Woocommerce Product Bundles"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:8
+msgid "Edit bundle"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:29
+msgid "Back to Premmerce Woocommerce Product Bundles"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:55
+msgid "Product title"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:56 views/admin/menu-page.php:38
+#: views/admin/product-form-add-new-bundle.php:27
+#: views/admin/product/product-form-add-new-bundle.php:29
+msgid "Discount (%)"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:77 views/admin/menu-page.php:69
+#: views/admin/product-form-add-new-bundle.php:50
+#: views/admin/product/product-form-add-new-bundle.php:52
+msgid "Select attached product"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:91 views/admin/menu-page.php:85
+#: views/admin/product-form-add-new-bundle.php:60
+#: views/admin/product/product-form-add-new-bundle.php:62
+msgid "Enable bundle?"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:94 views/admin/menu-page.php:88
+#: views/admin/product-form-add-new-bundle.php:62
+#: views/admin/product/product-form-add-new-bundle.php:64
+msgid "Enable this if you want to display this bundle in your store."
+msgstr ""
+
+#: views/admin/menu-page-edit.php:101
+msgid "Update"
+msgstr ""
+
+#: views/admin/menu-page-edit.php:109 views/admin/menu-page.php:107
+#: views/admin/product-tab.php:21 views/admin/product/product-tab.php:21
+msgid ""
+"You are about to permanently delete these items from your site.\n"
+"This action cannot be undone.\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: views/admin/menu-page.php:20 views/admin/menu-page.php:92
+#: views/admin/product-tab.php:16 views/admin/product/product-tab.php:16
+msgid "Add new bundle"
+msgstr ""
+
+#: views/admin/menu-page.php:28 views/admin/product-form-add-new-bundle.php:15
+#: views/admin/product/product-form-add-new-bundle.php:15
+msgid "Select main product"
+msgstr ""
+
+#: views/admin/menu-page.php:37 views/admin/product-form-add-new-bundle.php:26
+#: views/admin/product/product-form-add-new-bundle.php:28
+msgid "Name"
+msgstr ""
+
+#: views/admin/product-form-add-new-bundle.php:65
+#: views/admin/product/product-form-add-new-bundle.php:67
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/product-form-add-new-bundle.php:66
+#: views/admin/product/product-form-add-new-bundle.php:68
+msgid "Save bundle"
+msgstr ""
+
+#: views/admin/unexist.php:5
+msgid ""
+"You attempted to edit an item that doesn't exist. Perhaps it was deleted?"
+msgstr ""
+
+#: views/frontend/product-bundles-list.php:108
+msgid "You save"
+msgstr ""
+
+#~ msgid "test"
+#~ msgstr "111"
+
+#~ msgid "2Main product required"
+#~ msgstr "Главный товар обязателен"
+
+#~ msgid "Available on backorder"
+#~ msgstr "Доступен по заказу"
+
+#~ msgid ""
+#~ "You cannot add that amount of \"%1$s\" to the cart because there is not "
+#~ "enough stock (%2$s remaining)."
+#~ msgstr ""
+#~ "Нельзя добавить такое количество \"%1$s\" в корзину, так как товара "
+#~ "недостаточно на складе (осталось %2$s)."
+
+#~ msgid "Select product"
+#~ msgstr "Выбрать товар"
+
+#~ msgid "You did not select products"
+#~ msgstr "Вы не выбрали товары"
+
+#~ msgid ""
+#~ "You cannot add that amount to the cart. Only %d items of &quot;%s&quot; "
+#~ "exist in the stock"
+#~ msgstr ""
+#~ "Вы не можете добавить такое количество в корзину. Только %d единиц &quot;"
+#~ "%s&quot; существует на складе"
+
+#~ msgid "status is "
+#~ msgstr "статус"
+
+#~ msgid "Not specified"
+#~ msgstr "Не определено"
+
+#~ msgid "Product in the bundle can not coincide with the main"
+#~ msgstr "Продукт в наборе не может совпадать с главным"
+
+#~ msgid "Products required"
+#~ msgstr "Товары обязательны"
+
+#~ msgid "Products"
+#~ msgstr "Товары"
+
+#~ msgid "status not publish"
+#~ msgstr "статус не опубликовано"
+
+#~ msgid "visibility not public"
+#~ msgstr "видимость не публично"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Active"
+#~ msgstr "Активен"
+
+#~ msgid "Bundle"
+#~ msgstr "Набор"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изминения"
+
+#~ msgid "Create"
+#~ msgstr "Создать"
+
+#~ msgid "Bundle with this main product already exist"
+#~ msgstr "Набор с таким главным товаром существует"
+
+#~ msgid "(bundled in %s)"
+#~ msgstr "(набор с %s)"

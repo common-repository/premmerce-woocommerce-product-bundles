@@ -1,0 +1,308 @@
+# Copyright (C) 2017 Premmerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Premmerce Product Bundles\n"
+"Report-Msgid-Bugs-To: issues\n"
+"POT-Creation-Date: 2018-08-23 10:53+0300\n"
+"PO-Revision-Date: 2018-08-23 10:54+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Admin/Admin.php:114 src/Admin/Admin.php:115
+msgid "Product bundles"
+msgstr "Комплекти"
+
+#: src/Admin/Admin.php:204 src/Admin/AdminProducts.php:129
+#: views/frontend/product-bundles-list.php:14
+msgid "Bundles"
+msgstr "Комплекти"
+
+#: src/Admin/Admin.php:207
+msgid "Contact Us"
+msgstr "Зв'яжіться з нами"
+
+#: src/Admin/Admin.php:209
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/Admin/Admin.php:297
+msgid "Bundle updated."
+msgstr " Комплект товарів оновлено."
+
+#: src/Admin/Admin.php:398
+#: views/admin/product/product-form-add-new-bundle.php:21
+msgid "Main product required"
+msgstr "Головний товар обов'язковий"
+
+#: src/Admin/Admin.php:404 src/Admin/Admin.php:405
+msgid "Product in the bundle can not be the same as main product"
+msgstr "Товар у комплекті не може співпадати з головним товаром"
+
+#: src/Admin/Admin.php:409 src/Admin/Admin.php:411
+msgid "Discount must be from 0 to 100"
+msgstr "Знижка має бути від 0 до 100"
+
+#: src/Admin/Admin.php:415
+#: views/admin/product/product-form-add-new-bundle.php:22
+msgid "Attached products required"
+msgstr "Прикріплені товари обов’язкові"
+
+#: src/Admin/BundlesTable.php:42
+msgid "types"
+msgstr "типи"
+
+#: src/Admin/BundlesTable.php:43
+msgid "type"
+msgstr "тип"
+
+#: src/Admin/BundlesTable.php:83
+msgid "Hidden"
+msgstr "Приховано"
+
+#: src/Admin/BundlesTable.php:88
+msgid "Edit"
+msgstr "Редагувати"
+
+#: src/Admin/BundlesTable.php:93 src/Admin/BundlesTable.php:181
+#: views/admin/menu-page-edit.php:104
+msgid "Delete"
+msgstr "Видалити"
+
+#: src/Admin/BundlesTable.php:98
+msgid "View"
+msgstr "Переглянути"
+
+#: src/Admin/BundlesTable.php:124
+msgid "Yes"
+msgstr "Так"
+
+#: src/Admin/BundlesTable.php:167 views/admin/menu-page-edit.php:39
+#: views/admin/menu-page.php:23 views/admin/product-form-add-new-bundle.php:10
+#: views/admin/product/product-form-add-new-bundle.php:10
+msgid "Main product"
+msgstr "Головний товар"
+
+#: src/Admin/BundlesTable.php:168 views/admin/menu-page-edit.php:50
+msgid "Attached products"
+msgstr "Прикріплені товари"
+
+#: src/Admin/BundlesTable.php:169
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: src/Admin/BundlesTable.php:182
+msgid "Activate"
+msgstr "Активація"
+
+#: src/Admin/BundlesTable.php:183
+msgid "Deactivate"
+msgstr "Деактивація"
+
+#: src/Admin/BundlesTable.php:226
+msgid "No bundles found."
+msgstr "Не знайдено комплектів."
+
+#: src/Frontend/Frontend.php:320
+#, php-format
+msgid ""
+"%s has been removed from your cart because it can no longer be purchased. "
+"Please contact us if you need assistance."
+msgstr ""
+"%s вилучено з кошика, тому що його більше не можна придбати. Будь ласка, "
+"зв'яжіться з нами, якщо вам потрібна допомога."
+
+#: src/Frontend/Frontend.php:372
+#, php-format
+msgid "You cannot add another \"%1$s\" to your cart."
+msgstr "Ви не можете додати інший \"%1$s\" до кошика."
+
+#: src/ProductBundlesModel.php:311 src/ProductBundlesModel.php:314
+msgid "is not available"
+msgstr "недоступний"
+
+#: src/ProductBundlesModel.php:319
+msgid "is password protected"
+msgstr "захищено паролем"
+
+#: src/ProductBundlesModel.php:323
+msgid "regular price is empty"
+msgstr "Звичайна ціна не заповнена"
+
+#: src/ProductBundlesModel.php:330
+msgid "out of stock"
+msgstr "немає в наявності"
+
+#: src/ProductBundlesPlugin.php:95
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для роботи плагіна %s потрібен плагін %s"
+
+#: views/admin/main.php:8
+msgid "Premmerce Woocommerce Product Bundles"
+msgstr "Комплекти товарів Premmerce"
+
+#: views/admin/menu-page-edit.php:8
+msgid "Edit bundle"
+msgstr "Редагувати набір"
+
+#: views/admin/menu-page-edit.php:29
+msgid "Back to Premmerce Woocommerce Product Bundles"
+msgstr "Назад до Комплекти товарів Premmerce"
+
+#: views/admin/menu-page-edit.php:55
+msgid "Product title"
+msgstr "Назва товару"
+
+#: views/admin/menu-page-edit.php:56 views/admin/menu-page.php:38
+#: views/admin/product-form-add-new-bundle.php:27
+#: views/admin/product/product-form-add-new-bundle.php:29
+msgid "Discount (%)"
+msgstr "Знижка (%)"
+
+#: views/admin/menu-page-edit.php:77 views/admin/menu-page.php:69
+#: views/admin/product-form-add-new-bundle.php:50
+#: views/admin/product/product-form-add-new-bundle.php:52
+msgid "Select attached product"
+msgstr "Оберіть прикріплений товар"
+
+#: views/admin/menu-page-edit.php:91 views/admin/menu-page.php:85
+#: views/admin/product-form-add-new-bundle.php:60
+#: views/admin/product/product-form-add-new-bundle.php:62
+msgid "Enable bundle?"
+msgstr "Увімкнути комплект?"
+
+#: views/admin/menu-page-edit.php:94 views/admin/menu-page.php:88
+#: views/admin/product-form-add-new-bundle.php:62
+#: views/admin/product/product-form-add-new-bundle.php:64
+msgid "Enable this if you want to display this bundle in your store."
+msgstr "Увімкніть якщо ви хочете відображати цей комплект у вашому магазині."
+
+#: views/admin/menu-page-edit.php:101
+msgid "Update"
+msgstr "Оновити"
+
+#: views/admin/menu-page-edit.php:109 views/admin/menu-page.php:107
+#: views/admin/product-tab.php:21 views/admin/product/product-tab.php:21
+msgid ""
+"You are about to permanently delete these items from your site.\n"
+"This action cannot be undone.\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Ви збираєтеся назавжди видалити ці елементи зі свого сайту. \n"
+"Цю дію не можна скасувати. \n"
+" \"Скасувати\", щоб зупинити, \"OK\", щоб видалити."
+
+#: views/admin/menu-page.php:20 views/admin/menu-page.php:92
+#: views/admin/product-tab.php:16 views/admin/product/product-tab.php:16
+msgid "Add new bundle"
+msgstr "Додати новий комплект"
+
+#: views/admin/menu-page.php:28 views/admin/product-form-add-new-bundle.php:15
+#: views/admin/product/product-form-add-new-bundle.php:15
+msgid "Select main product"
+msgstr "Оберіть товар"
+
+#: views/admin/menu-page.php:37 views/admin/product-form-add-new-bundle.php:26
+#: views/admin/product/product-form-add-new-bundle.php:28
+msgid "Name"
+msgstr "Назва"
+
+#: views/admin/product-form-add-new-bundle.php:65
+#: views/admin/product/product-form-add-new-bundle.php:67
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: views/admin/product-form-add-new-bundle.php:66
+#: views/admin/product/product-form-add-new-bundle.php:68
+msgid "Save bundle"
+msgstr "Зберегти комплект"
+
+#: views/admin/unexist.php:5
+msgid ""
+"You attempted to edit an item that doesn't exist. Perhaps it was deleted?"
+msgstr ""
+"Ви намагались відредагувати сторінку, якої не існує. Можливо вона видалена?"
+
+#: views/frontend/product-bundles-list.php:108
+msgid "You save"
+msgstr "Ви економите"
+
+#~ msgid "Available on backorder"
+#~ msgstr "Доступно по замовленню"
+
+#~ msgid ""
+#~ "You cannot add that amount of \"%1$s\" to the cart because there is not "
+#~ "enough stock (%2$s remaining)."
+#~ msgstr ""
+#~ "Не можна додати таку кількість \"%1$s\" до кошика,тому що недостатньо в "
+#~ "запасі (залишилось %2$s)."
+
+#~ msgid "Select product"
+#~ msgstr "Оберіть товар"
+
+#~ msgid "You did not select products"
+#~ msgstr "Ви не обрали товари"
+
+#~ msgid ""
+#~ "You cannot add that amount to the cart. Only %d items of &quot;%s&quot; "
+#~ "exist in the stock"
+#~ msgstr ""
+#~ "Ви не можете додати таку кількість до корзини. Тільки %d одиниць &quot;"
+#~ "%s&quot; існує на складі"
+
+#~ msgid "status is "
+#~ msgstr "статус"
+
+#~ msgid "Not specified"
+#~ msgstr "Не визначено"
+
+#~ msgid "Product in the bundle can not coincide with the main"
+#~ msgstr "Товар у наборі не може співпадати з головним"
+
+#~ msgid "Products required"
+#~ msgstr "Товари обов'язкові"
+
+#~ msgid "Products"
+#~ msgstr "Товари"
+
+#~ msgid "status not publish"
+#~ msgstr "статус не опубліковано"
+
+#~ msgid "visibility not public"
+#~ msgstr "видимість не публічно"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Active"
+#~ msgstr "Активний"
+
+#~ msgid "Bundle"
+#~ msgstr "Набір"
+
+#~ msgid "No"
+#~ msgstr "Ні"
+
+#~ msgid "Save Changes"
+#~ msgstr "Зберегти зміни"
+
+#~ msgid "Create"
+#~ msgstr "Створити"
+
+#~ msgid "Bundle with this main product already exist"
+#~ msgstr "Набір з таким головним товаром існує"
+
+#~ msgid "(bundled in %s)"
+#~ msgstr "(набір з %s)"
